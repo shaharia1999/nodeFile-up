@@ -4,7 +4,7 @@ const cors = require('cors')
 const multer = require('multer');
 const path = require('path');
 
-const port = process.env.PORT || 5000;
+const port =5000;
 const { MongoClient, ServerApiVersion ,ObjectId} = require('mongodb');
 // const objectID=require('mongodb').objectID;
 const   OBG = require('mongodb').ObjectID;
@@ -94,5 +94,5 @@ app.get('/', (req, res) => {
 
 // listen PORT
 app.listen(port, () => {
-  // console.log("CRUD SERVER IS RUNNING");
+  // console.log("");
 })
